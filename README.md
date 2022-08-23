@@ -14,6 +14,7 @@
     - Wintun中的wintun.dll [下载地址](https://www.wintun.net/)  
     - tun2socks [下载地址](https://github.com/xjasonlyu/tun2socks/releases)  
     - gsudo [下载地址](https://github.com/gerardog/gsudo/releases)  
+    
     在QvPlugin-Command插件设定的Post-Connection一栏中填入`.\plugins\QvTP\gsudo python .\plugins\QvTP\QvTP.py`  
   - 安装打包  
     同样在Qv2ray的plugins文件夹中创建一个名为QvTP的文件夹  
@@ -21,5 +22,6 @@
     在QvPlugin-Command插件设定的Post-Connection一栏中填入`.\plugins\QvTP\gsudo .\plugins\QvTP\QvTP`  
 3. Enjoy!  
   此透明代理会自动开关：当你在首选项-入站设置中勾选“设置系统代理”，透明代理不会生效；取消勾选“设置系统代理”，即可打开透明代理。  
+  注意：某些时候，在连接后一小段时间会涌入大量的请求，导致Qv2ray界面卡死，这时只需耐心等待，静待花开（误）  
 ## 可能更好的选择
 试试v2rayA？  
